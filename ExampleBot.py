@@ -18,12 +18,13 @@ discordbot.commandarea = [
     '/help'       # Show available commands
 ]
 
-discordbot.bot_token = "MTQwNDM3MjA2NzgyMTgxMzkzMA.GWDZ0v.mkwtaFIUdzpc75LAZFaiNs5PoGgXl2UOY62Wqc"
+discordbot.bot_token = "xxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxx"
 
 if discordbot.bot_token:
     print("Login success.")
     pth(discordbot.bot_token)
 else:
     print("Login failed.")
+
 
 # Note: The inputcmds call is now handled in pth.py, so this line is removed
